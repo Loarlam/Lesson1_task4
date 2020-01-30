@@ -25,7 +25,7 @@ namespace Task4
             //Для примера возьму пятиугольник
             Figure mnogougolnik = new Figure(A, B, C, D, E);
 
-            Console.Write("{0} с периметром = ",mnogougolnik.NameOfPolygons);
+            Console.Write("{0} с периметром = ", mnogougolnik.NameOfPolygons);
             mnogougolnik.PerimeterCalculator();
 
             Console.ReadKey();
