@@ -20,7 +20,7 @@ namespace Task4
 
         public Figure(Point A, Point B, Point C, Point D)
         {
-            nameOfPolygon = "Квадрат";
+            nameOfPolygon = "Прямоугольник";
             point = new Point[4];
             this.point[0] = A;
             this.point[1] = B;
